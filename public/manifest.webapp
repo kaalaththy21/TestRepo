@@ -1,0 +1,41 @@
+{
+    "version": "1.0.0",
+    "name": "Sample App",
+    "description" : "sample app",
+    "launch_path" : "/index.html",
+    "icons" : {
+        "56": "/icons/56x56.png",
+        "84": "/icons/84x84.png"
+    },
+    "developer" : {
+        "name" : "Sample App",
+        "url" : "https://www.sample-app.com"
+    },
+    "type": "certified",
+    "origin" : "app://sample-app.com",
+    "csp" : "default-src *; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src * data:",
+    "permissions" : {
+        "browser": {},
+        "serviceworker": {},
+        "desktop-notification" : {
+            "description" : "Needed to fire system notifications"
+        },
+        "telephony": {
+            "description": "Required to control telephony functions"
+        }
+    },
+    "default_locale": "en-US",
+    "locales": {
+        "en-US": {
+            "name": "JioChannels",
+            "description": "JioChat lets you stay in touch with your friends and family members. You can send text messages, images, videos and contacts on it",
+            "subtitle": "Stay connected with your friends and family"	  
+        },
+        "hi-IN": {
+            "name": "जीओचैनल",
+            "description": "JioChat lets you stay in touch with your friends and family members. You can send text messages, images, videos and contacts on it",
+            "subtitle": "Stay connected with your friends and family"	 
+        }
+    },
+    "display" : "Sample App"
+}
